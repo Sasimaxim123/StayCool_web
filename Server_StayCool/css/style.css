@@ -1,0 +1,96 @@
+
+button {
+  padding: .8em 1em calc(.8em + 3px); /*Расстояние от элемента до краев*/
+  background-repeat: no-repeat;
+  border: 1.5px solid #161513;
+  border-radius: 3px;
+  background: #161513;
+  transition: 0.2s;
+  width: 27em;
+  height: 11em;
+  margin-left: 40px; /*Расстояние м/д кнопками*/
+} 
+button:hover { 
+	background: #272624; 
+}
+button:active{
+  background: #32312e;
+}
+
+
+
+
+#shapka{
+	background: #161513;
+	margin: #161513;
+	padding: 1.5em 0;
+
+}
+
+
+body{
+	background: #201f1d;
+
+
+#btn1{
+	position: relative; /* Относительное позиционирование */
+    left: 1em; /* Сдвигаем вниз */
+}
+
+
+div{
+
+	letter-spacing:50px;
+	height: 10em;
+    position: relative }
+
+}
+
+
+
+#blok_1{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    /*Полное центрирование*/
+}
+
+
+
+#inp{
+
+  border: 1.5px solid #161513;
+  border-radius: 3px;
+  background: #161513;
+  transition: 0.2s;
+  width: 27em;
+  height: 11em;
+  margin-left: 40px;
+
+    border: 1px solid #161513; /*/цвет рамки*/
+   border-radius: 3px; /*/закругление углов (общее)*/
+   -webkit-border-radius: 3px; /*/закругление углов (Google Chrome)*/
+   -moz-border-radius: 3px; /*/закругление углов (FireFox)*/
+  
+
+   outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+   height: 24px; /*/ высота на свое усмотрение*/
+   width: 120px; /*/ ширина на свое усмотрение*/
+   color: #cccccc; /*/цвет шрифта в обычном состоянии*/
+   font-size: 11px; /*/ Размер шрифта*/
+   font-family: Tahoma; /*/ Стиль шрифта*/
+}
+
+
+/*
+
+селектор{
+	свойство:значение;
+	свойство:значение;
+	свойство:значение;
+}
+
+*/
