@@ -1,0 +1,11 @@
+FROM arm32v7/python:3
+CMD echo "Hello World!"
+WORKDIR /usr/src/app
+COPY StayCool_lamp_app.py ./
+COPY base_for_modes.db ./
+RUN pip install flet
+RUN pip install pysqlite3
+
+EXPOSE 8000
+
+CMD ["python3", "./StayCool_lamp_app.py"]
